@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="dist/bootstrap.min.css">
   <link rel="stylesheet" href="dist/static/Outfit-Black.ttf">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <title>Frontend Mentor | QR code component</title>
@@ -15,39 +14,68 @@
       text-align: center;
     }
     .card {
-      background-color:  hsl(0, 0%, 100%);
-      margin-top: 9%;
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      background-color: hsl(0, 0%, 100%);
       width: 250px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      position: absolute;
+      top: 47%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding: 20px;
       border-radius: 20px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
     .card img {
       border-radius: 10px;
-      margin-top: 15px;
+      margin-top: 3px;
+      width: 100%;
     }
-    b {
+    h3 {
+      font-family: Outfit-Black, Arial, sans-serif;
       color: hsl(218, 44%, 22%);
-      font-size: 16px;
+      font-weight: 700;
     }
     p {
+      font-family: Outfit-Light, Arial, sans-serif;
       margin-top: 5%;
       color: hsl(220, 15%, 55%);
+      font-weight: 400;
       font-size: 15px;
     }
+    @font-face {
+      font-family: 'Outfit-Black';
+      src: url('dist/static/Outfit-Black.ttf')
+    }
+    @font-face {
+    font-family: 'Outfit-Light';
+    src: url('dist/static/Outfit-Light.ttf')
+  }
+  footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 15px;
+    text-align: center;
+  }
   </style>
 <body>
   <div class="container">
-    <div class="row justify-content-center">
+    <div class="justify-content-center">
         <div class="card">
           <img src="images/image-qr-code.png">
           <div class="card-body">
-              <b>Improved your front-end skills by building projects</b>
+              <h3>Improved your front-end skills by building projects</h3>
               <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
           </div>
         </div>
+        <footer>
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+            Coded by <a href="https://github.com/jisibil" target="_blank">Jessebel Batan</a>.
+        </footer>
     </div>
   </div>
-
-
 </body>
 </html>
