@@ -27,6 +27,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - HTML
 - CSS
 
+CSS Fonts
+
 ```CSS fonts
     @font-face {
       font-family: 'Outfit-Black';
@@ -37,6 +39,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
     src: url('dist/static/Outfit-Light.ttf')
     }
 ```
+CSS Styles
+
 ```CSS styles
     body {
       background-color: hsl(212, 45%, 89%);
@@ -82,10 +86,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
     text-align: center;
   }
 ```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
 
