@@ -103,6 +103,6 @@ As I take on my first challenge on Frontend Mentor, I aim to further develop my 
 
 ## Acknowledgments
 
-I would like to thank Benjie Mondia (https://github.com/benjamineke) for introducing me Frontend Mentor and for answering all my questions wholeheartedly.
+I would like to thank [Benjie Mondia](https://github.com/benjamineke) for introducing me Frontend Mentor and for answering all my questions wholeheartedly.
 
 Challenge by [Frontend Mentor](https://www.frontendmentor.io?ref=challenge)
