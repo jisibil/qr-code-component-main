@@ -27,7 +27,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - HTML
 - CSS
 
-CSS Fonts
+### CSS Fonts
 
 ```CSS fonts
     @font-face {
@@ -39,7 +39,7 @@ CSS Fonts
     src: url('dist/static/Outfit-Light.ttf')
     }
 ```
-CSS Styles
+### CSS Styles
 
 ```CSS styles
     body {
