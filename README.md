@@ -99,7 +99,7 @@ As I take on my first challenge on Frontend Mentor, I aim to further develop my 
 
 - Website - [Jessebel Batan](https://github.com/jisibil)
 - Frontend Mentor - [@jisibil](https://www.frontendmentor.io/profile/jisibil)
-- Twitter - [@yourusername](https://www.twitter.com/jisibil)
+- Twitter - [@jisibil](https://www.twitter.com/jisibil)
 
 ## Acknowledgments
 
